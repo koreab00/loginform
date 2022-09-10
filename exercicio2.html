@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Preencha qualquer coisa e depois clique no botao abaixo:</p>
+    <input type="text" name="" id="my-txt" value="Aqui vai ser exibido"  />
+    <br />
+    <br>
+    <button id="btn-clicou">Outro 'Button'</button>
+
+    <script type="text/javascript">
+    document.getElementById("my-txt").addEventListener('click', function() {
+    var texto = document.getElementById("my-txt").value;
+    alert(texto); 
+    });          
+    </script>
+    
+</body>
+</html>
